@@ -1,0 +1,238 @@
+.catalog-container {
+  margin-top: 35px;
+}
+
+.movie-card {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clothing-image {
+  width: 450px;
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.second-image {
+  width: 450px;
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+.clothing-info {
+  font-size: 25px;
+  padding: 50px;
+  line-height: 29px;
+  flex: 10;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.clothing-info h2 {
+  font-size: 40px;
+}
+
+.cloth-description button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.cloth-description button:hover {
+  background-color: #e0e0e0;
+}
+
+.description-box {
+  width: 31.5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: absolute;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.cloth-price {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.size-options {
+  margin-top: 10px;
+}
+
+.size-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.size-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.size-button.selected {
+  border-color: #c40d0d;
+  background-color: #c40d0d;
+  color: #fff;
+}
+
+.size-warning {
+  color: red;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.add-to-cart {
+  display: block;
+  width: 45%;
+  padding: 10px;
+  margin-top: 12px;
+  color: #fff;
+  background-color: #c40d0d;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #981111;
+}
+
+.add-to-cart-notification {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #a72222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.reviews-section {
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 48%; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-right: 2%; 
+}
+
+.review-form {
+  margin-bottom: 20px;
+}
+
+.review-form input[type="text"],
+.review-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.review-form textarea {
+  height: 100px;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.review-form button[type="submit"] {
+  background-color: #c31212;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.review-form button[type="submit"]:hover {
+  background-color: #800606;
+}
+
+.reviews-list {
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 48%; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 500px; 
+  overflow-y: auto; 
+}
+
+.review-item {
+  padding: 15px 0;
+  font-size: 20px;
+  position: relative;
+}
+
+.review-item:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.review-item h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.review-item .review-date {
+  font-size: 15px;
+  color: #666;
+}
+
+.review-item .review-photo {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.madina-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}

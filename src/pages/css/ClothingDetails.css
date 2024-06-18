@@ -1,0 +1,31 @@
+.clothing-details-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .clothing-details-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .clothing-details-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .clothing-details-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .clothing-details-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  

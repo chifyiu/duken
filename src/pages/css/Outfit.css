@@ -1,0 +1,138 @@
+.catalog-page {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.category-filter,
+.sort-filter {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-filter button,
+.sort-filter button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.category-filter button.active,
+.sort-filter button.active {
+  background-color: #dd1818;
+  color: white;
+  transform: scale(1.05);
+}
+
+.category-filter button:hover,
+.sort-filter button:hover {
+  background-color: #7a1818;
+  color: white;
+}
+
+.sort-filter label {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clothing-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clothing-item-link {
+  text-decoration: none;
+}
+
+.clothing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 320px; 
+  height: 500px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  overflow: hidden; 
+}
+
+.clothing-item:hover {
+  transform: scale(1.05);
+}
+
+.clothing-item img {
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.clothing-details {
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden; 
+}
+
+.clothing-details h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #000; 
+}
+
+.clothing-details p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #555;
+  text-decoration: none; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+
+.clothing-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.clothing-price svg {
+  margin-right: 5px;
+}
+
+
+.clothing-item {
+  position: relative;
+
+}
+
+.new-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
